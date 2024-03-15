@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8a2be2);
+}
+
+a {
+  color: #0d0d0d;
+  font-size: 25px;
+  text-decoration: none;
+}
+img{
+position:relative;
+left: 180%;
+width: 100%;
+ 
+}
+
+figure{
+  width: 20%;
+
+}
+.titulo{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Short Stack', cursive;
+  margin-top:10% ;
+}
+.botonAgregar , .botonModificar{
+  color: white;
+  background-color:#ffaa00;
+  padding: 10px;
+  border-radius: 10px;
+}
+.botonBorrar{
+  color: white;
+  background-color: rgb(255, 0, 13);
+  padding: 10px;
+  border-radius: 10px;
+}
+.botonVolver{
+  color: white;
+  background-color:#ff00ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.formulario{
+  margin: auto;
+  width: 20%;
+font-family:  monospace;
+color :#080808;
+
+}
